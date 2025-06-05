@@ -9,6 +9,4 @@ console.log(arr)
 arr.unshift(9)
 console.log(arr)
 
-//array-copy operations crate shallow copies
-const name1=["ROHAN","LATTU","JOON"]
-const name2=["ISHIKA","ISHU","ISHI"]
+
