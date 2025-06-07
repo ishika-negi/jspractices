@@ -26,6 +26,6 @@ const mynums = [1, 2, 3]
 //     console.log(`acc: ${acc} and currval: ${currval}`)
 //     return acc + currval
 // },0)
-// console.log(mytotal)
+// console.log(mytotal) 
 const mytotal = mynums.reduce((acc,curr) => acc+curr,0)//0 is for value of the accumulator
 console.log(mytotal)
