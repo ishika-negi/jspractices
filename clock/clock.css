@@ -1,0 +1,76 @@
+/* Body Styling */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Navigation */
+nav {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #ff6f61;
+}
+
+/* Center Container */
+.center {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+/* Banner Styling */
+#banner span {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 1px 1px 4px #000;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Clock Styling */
+#clock {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 10px;
+  text-shadow: 2px 2px 8px #000000;
+  animation: pulse 1s infinite alternate;
+}
+
+/* Pulsing animation for fun effect */
+@keyframes pulse {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.03);
+    opacity: 0.9;
+  }
+}
